@@ -1,0 +1,169 @@
+<GridLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    android:id="@+id/gridLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/amount"
+        android:id="@+id/amountTextView"
+        android:layout_gravity="right"
+        android:labelFor="@+id/amountEditText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@id/amountEditText"
+        android:digits="013456789"
+        android:maxLength="6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/amountDisplayTextView"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_gravity="fill_horizontal"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="@dimen/textview_padding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/custom_tip_percentage"
+        android:id="@+id/customPercentTextView"
+        android:layout_gravity="center_vertical|right" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customTipSeekBar"
+        android:max="30"
+        android:progress="18"
+        android:layout_gravity="fill_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/percentLinearLayout"
+        android:layout_column="1"
+        android:gravity="fill_horizontal"
+        android:layout_gravity="fill_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fifteen_percent"
+            android:id="@+id/percent15TextView"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/custom_percent"
+            android:id="@+id/percentCustomTextView"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tip"
+        android:id="@+id/tipTextView"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_gravity="center_vertical|right" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipLinearLayout"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tip15TextView"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/textview_padding"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tipCustomTextView"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/textview_padding"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/total"
+        android:id="@+id/totalTextView"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_gravity="center_vertical|right" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalLinearLayout"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/total15TextView"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/textview_padding"
+            android:layout_marginRight="8dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/totalCustomTextView"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/textview_padding"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+</GridLayout>

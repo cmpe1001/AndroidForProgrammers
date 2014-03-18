@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ようこそ！</string>
+    <string name="welcome">ようこそ、アンドロイド開発へ</string>
+    <string name="action_settings">設定</string>
+    <string name="android_logo">アンドロイドロゴ</string>
+    <string name="deitel_logo">ダイテルダブルサムズアップロゴ</string>
+
+</resources>
