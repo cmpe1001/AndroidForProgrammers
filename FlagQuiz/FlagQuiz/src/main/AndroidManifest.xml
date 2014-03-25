@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="me.seet.flagquiz.SettingsActivity"
+            android:label="@string/settings_activity" >
+        </activity>
     </application>
 
 </manifest>

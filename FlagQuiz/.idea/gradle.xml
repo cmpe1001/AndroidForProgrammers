@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/FlagQuiz" />
+            <option value="H:\Dev\lifetime_learning\books\AndroidForProgrammers\FlagQuiz" />
+            <option value="H:\Dev\lifetime_learning\books\AndroidForProgrammers\FlagQuiz\FlagQuiz" />
           </set>
         </option>
       </GradleProjectSettings>
