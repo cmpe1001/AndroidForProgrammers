@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Doodlz.iml" filepath="$PROJECT_DIR$/Doodlz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Doodlz/Doodlz-Doodlz.iml" filepath="$PROJECT_DIR$/Doodlz/Doodlz-Doodlz.iml" />
+    </modules>
+  </component>
+</project>
+
