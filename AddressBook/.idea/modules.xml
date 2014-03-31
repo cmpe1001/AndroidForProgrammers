@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddressBook.iml" filepath="$PROJECT_DIR$/AddressBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AddressBook/AddressBook-AddressBook.iml" filepath="$PROJECT_DIR$/AddressBook/AddressBook-AddressBook.iml" />
+    </modules>
+  </component>
+</project>
+
